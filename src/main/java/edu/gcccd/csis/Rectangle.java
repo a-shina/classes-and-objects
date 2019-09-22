@@ -33,6 +33,11 @@ public class Rectangle {
         return circumference;
     }
     public boolean isSquare() {
-        return (width == height);
+        boolean isSquare;
+        if ((width == 0 || height == 0) || (height != width))
+            isSquare = false;
+        else
+            isSquare = true;
+        return isSquare;
     }
 }

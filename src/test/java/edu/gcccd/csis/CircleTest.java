@@ -30,13 +30,13 @@ public class CircleTest {
 
     @Test
     public void getArea() {
-        Assert.assertEquals(Math.PI*8.0*8.0, C1.getArea(), 0.00001);
-        Assert.assertEquals(Math.PI*1.0*1.0, C2.getArea(), 0.00001);
+        Assert.assertEquals(Math.PI * 8.0 * 8.0, C1.getArea(), 0.00001);
+        Assert.assertEquals(Math.PI * 1.0 * 1.0, C2.getArea(), 0.00001);
     }
 
     @Test
     public void getCircumference() {
-        Assert.assertEquals(2*Math.PI*8.0, C1.getArea(), 0.00001);
-        Assert.assertEquals(2*Math.PI*1.0, C2.getArea(), 0.00001);
+        Assert.assertEquals(2 * Math.PI * 8.0, C1.getCircumference(), 0.00001);
+        Assert.assertEquals(2 * Math.PI * 1.0, C2.getCircumference(), 0.00001);
     }
 }
